@@ -13,3 +13,6 @@ En la siguiente ruta Linktic/src/env.mjs Ajustar las variables mongo_host, mongo
 
 ## Development server
 Run `npm run start` for a dev server. Navigate to `http://localhost:3000/`.
+
+## Documentation
+`https://documenter.getpostman.com/view/6062035/UVRBnmg6#ad3c72bb-124d-4521-a6a2-0409d940389e`.
