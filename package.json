@@ -1,0 +1,23 @@
+{
+  "name": "bi-catalogo",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node --experimental-modules ./bin/www.mjs",
+    "dev": "set PORT=3000& set ENV=development& nodemon --experimental-modules ./bin/www.mjs",
+    "test-prod": "set PORT=3000& set ENV=production& nodemon --experimental-modules ./bin/www.mjs"
+  },
+  "dependencies": {
+    "axios": "0.19.2",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "moment": "^2.25.3",
+    "moment-timezone": "^0.5.32",
+    "mongoose": "^5.9.2",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
